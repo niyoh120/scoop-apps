@@ -1,12 +1,12 @@
 {
-    "version": "1.2.8.0",
+    "version": "1.2.9.1",
     "description": "一款可以在 Android、iOS、macOS 和 windows 上运行的 NAS 音乐播放器",
     "homepage": "https://aqzscn.cn/archives/stream-music-versions",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://oss.aqzscn.cn/stream-music/versions/1.2.8/stream_music_1.2.8.0.msix",
-            "hash": "b3ef2f877b5f7a063541ac1730968ffda5b725b299d72046344acda0395fbf4e",
+            "url": "https://oss.aqzscn.cn/stream-music/versions/1.2.9/stream_music_1.2.9.1.msix",
+            "hash": "0a8e5680c50f6ebc5c3e6db18ace7fb006d15e34eea73132f6148d239ada1a1b",
             "installer": {
                 "script": [
                     "Get-ChildItem \"$dir\" -Filter 'stream_music_*.msix' | Rename-Item -NewName { $_.Name -replace '_(\\d.)+', '.' }",
