@@ -1,12 +1,12 @@
 {
-    "version": "1.10.7",
+    "version": "1.11.0",
     "description": "一款以 MIT 协议开源的原神工具箱，专为现代化 Windows 平台设计，旨在改善桌面端玩家的游戏体验",
     "homepage": "https://github.com/DGP-Studio/Snap.Hutao",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/DGP-Studio/Snap.Hutao/releases/download/1.10.7/Snap.Hutao.1.10.7.msix",
-            "hash": "a3417e61d322addcd4bd408e035cc6e0622dfa0a5d4235a5169f430eedd3e4fb",
+            "url": "https://github.com/DGP-Studio/Snap.Hutao/releases/download/1.11.0/Snap.Hutao.1.11.0.msix",
+            "hash": "9b05bd7caefcd1300a2937826891817b5d23eefb24a58f0d083db02764b48796",
             "installer": {
                 "script": "Get-ChildItem \"$dir\" -Filter 'Snap.Hutao*.msix' | Select-Object -First 1 | ForEach-Object { Expand-7zipArchive $_.FullName \"$dir\" }"
             }
